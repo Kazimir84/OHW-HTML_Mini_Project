@@ -1,0 +1,353 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 28px;
+}
+
+.navMenu {
+    display: flex;
+    align-items: center;
+    /*justify-content: space-between;*/
+    justify-content: center;
+}
+
+.logoTop {
+    /*margin-left: 36px;*/
+    margin-left: 36px;
+    margin-right: 170px;
+}
+
+.navMain {
+    display: flex;
+    /*column-gap: 48px;*/
+    column-gap: 22px;
+}
+
+.navMain > div > a {
+    text-decoration: none;
+
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0B2330;
+}
+
+.navMain > div > a:hover {
+    color: blue;
+    background-color: yellow;
+    border-radius: 3px;
+}
+
+.navMain > div > a > img {
+    margin-left: 8px;
+}
+
+.navRight {
+    /*display: flex;*/
+    /*column-gap: 24px;*/
+    /*margin-right: 32px;*/
+    /*align-items: center;*/
+    display: flex;
+    column-gap: 24px;
+    margin-right: 32px;
+    align-items: center;
+    margin-left: 170px;
+}
+
+.navRight > div > a {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0B2330;
+}
+
+.navRight > div > a:hover {
+    color: red;
+}
+
+.navButton {
+    width: 163px;
+    height: 54px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #0B2330;
+    border: 1px solid #0B2330;
+    box-sizing: border-box;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: box-shadow .35s;
+}
+
+.navButton:hover {
+    -webkit-box-shadow: 0 4px 16px 5px #000000;
+    box-shadow: 0 4px 16px 5px #000000;
+}
+
+/*-----------------------------Header------------------------------------*/
+.header {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.header_wrapper {
+    display: flex;
+    margin-top: 30px;
+    column-gap: 257px;
+    margin-bottom: -370px;
+}
+
+.header_wrapper__left {
+    margin-left: 147px;
+    margin-top: 154px;
+}
+
+.header_wrapper__right {
+
+}
+
+.header_h1 {
+    max-width: 435px;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 50px;
+    letter-spacing: 0.6px;
+    color: #0B2330;
+    margin-bottom: 32px;
+}
+
+.header_p {
+    max-width: 435px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #375361;
+    margin-bottom: 38px;
+}
+
+.header_btn {
+    display: flex;
+    column-gap: 10px;
+}
+
+.header_btn > button {
+    display: flex;
+    padding: 15px 29px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0B2330;
+    justify-content: center;
+    align-items: center;
+    transition: box-shadow .35s;
+}
+
+.header_btn > button:hover {
+    background-color: yellow;
+    -webkit-box-shadow: 0 4px 16px 5px #000000;
+    box-shadow: 0 4px 16px 5px #000000;
+}
+
+.bg_yellow {
+    z-index: 1;
+}
+
+.main_img {
+    z-index: 2;
+    position: relative;
+    bottom: 710px;
+    right: 100px;
+}
+
+.company {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.company > h2 {
+    margin-bottom: 59px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 48px;
+    letter-spacing: 0.42px;
+    color: #0B2330;
+    max-width: 550px;
+}
+
+.company_logo {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 85px;
+    margin: 0 122px;
+}
+
+.product_teams {
+    display: flex;
+    justify-content: center;
+}
+
+.product_wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #51CEBC;
+    margin: auto 32px;
+    border-radius: 10px;
+}
+
+.product_img {
+
+}
+
+.product_discribe {
+
+}
+
+.product_discribe > h2 {
+    font-weight: normal;
+    font-size: 31px;
+    line-height: 35px;
+    letter-spacing: 0.34px;
+    color: #0B2330;
+    margin-right: 120px;
+    margin-bottom: 35px;
+}
+
+.product_discribe > p {
+    margin-right: 120px;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    color: #0B2330;
+}
+.analitics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 57px;
+    margin-top: 190px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.analitics > h2 {
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.34px;
+    color: #0B2330;
+    width: 710px;
+}
+
+.analitics_img {
+
+}
+
+.btn_start {
+
+
+}
+
+.analitics_btn_yellow {
+    background: #F9C600;
+    border: 1px solid #F9C600;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 14px 29px 16px;
+    cursor: pointer;
+    margin-bottom: 176px;
+    transition: box-shadow .35s;
+}
+
+.analitics_btn_yellow:hover {
+    -webkit-box-shadow: 0 4px 16px 5px #000000;
+    box-shadow: 0 4px 16px 5px #000000;
+}
+
+.actual_users {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 57px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.actual_users_wrapper {
+    display: flex;
+    align-items: center;
+    margin: 0 32px;
+}
+
+.actual_users__content {
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 35px;
+    letter-spacing: 0.34px;
+    color: #0B2330;
+    margin: 0 193px 0 136px;
+    margin-bottom: 35px;
+    max-width: 483px;
+}
+
+.actual_users__content > p {
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 20px;
+    color: #0B2330;
+    /*width: 145%;*/
+    margin-top: 39px;
+    max-width: 550px;
+}
+
+.bg_purpul {
+    z-index: -2;
+    position: absolute;
+    width: 1170px;
+    margin-left: 114px;
+}
+
+.solutions {
+    display: flex;
+    margin-top: 186px;
+    margin-left: -330px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.solutions > h3 {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #6A7981;
+}
+
+.solutions > h2 {
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 48px;
+    letter-spacing: 0.42px;
+    color: #0B2330;
+    width: 725px;
+    margin-bottom: 26px;
+    margin-top: 13px;
+}
+
+.solutions > p {
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 32px;
+    color: #375361;
+}
